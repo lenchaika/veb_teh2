@@ -1,0 +1,162 @@
+@font-face {
+    font-family: Montserrat Personal;
+    src: url(./assets/fonts/Montserrat-Bold.ttf);
+}
+
+html,body{
+    overflow-x: hidden;
+    width: 100%;
+    font-family: Montserrat Personal;
+    font-style: normal;
+    font-size: 20px;
+  }
+  header{
+    display: flex;
+    flex-direction: row;
+    margin: 3px 4px 61px -16px;
+    padding: 1px 1px 1px 1px;
+  }
+    
+  h1{
+    margin: 5px 304px 0 10px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    
+  }
+  nav{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+  
+  }
+
+  p { text-align:justify; }
+
+  
+
+ #wrapper {
+	max-width: 1050px;
+	margin: auto;
+ }
+ header {
+	padding: 10px 0;
+ }
+
+ form[name="search"] {
+	float: right;
+ }
+
+  nav a {
+	text-decoration: none;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	list-style-position: inside;
+	font: 14px 'Oswald', sans-serif;
+	padding: 10px;
+}
+
+.top-menu li {
+	display: inline-block;
+	padding: 16px 18px  ;
+	margin: 0;
+}
+
+.top-menu li.active {
+	background: #111212;
+	color: #1e1b1b;
+}
+
+.top-menu a {
+	color: #211e1e;
+}
+
+
+.img{
+
+    background-image: url("./assets/img/background/background.jpg");
+
+    background-size: no-repeat;
+
+    background-position: center;
+
+    background-size: cover;
+
+    height: 400px;
+
+    width: 400px;
+
+}
+
+
+
+aside {
+	float: left;
+	width: 250px;
+}
+section {
+	margin-left: 280px;
+	padding-bottom: 50px;
+}
+
+.aside-menu li {
+	font-weight: 300;
+	list-style-type: normal;
+	border-top: 1px solid #141313;
+}
+
+.aside-menu li:first-child {
+	border: none;
+}
+
+.aside-menu li.active {
+	color: #0e0e0f;
+}
+
+.aside-menu a {
+	color: #0e0d0d;
+}
+
+
+blockquote {
+	margin: 0;
+	background: #f8f3f7;
+	padding: 10px 20px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+}
+
+blockquote p {
+	color: #141212;
+	font-style: italic;
+	font-size: 20px;
+	margin: 0;
+}
+
+blockquote cite {
+	display: block;
+	font-size: 20px;
+	font-style: italic;
+	color: #0a0a0a;
+	margin: 0;
+	text-align: right;
+}
+
+footer {
+	background: #7e7e7e;
+	color: #dbdbdb;
+	font-size: 11px;
+}
+
+#footer {
+	max-width: 960px;
+	margin: auto;
+	padding: 10px 0;
+	height: 90px;
+}
