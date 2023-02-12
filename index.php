@@ -1,3 +1,11 @@
+<?php 
+$connect = new PDO('mysql:host=localhost; dbname=; charset=utf8', 'ck24812', 'RVyk7u8SkOns');
+$new_files = $connect->query("Select * From ");
+$new_files = $new_files->fetchAll();
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -90,6 +98,12 @@
       </section>
       
 	</div>
+  <h3>Выводим информацию    </h3>
+  <div>
+    <p></p>
+    <p></p>
+    <p></p>
+  </div>
 	<footer>
     <div id="footer">
       <div class="footer_text" id ="contacts">
@@ -97,6 +111,7 @@
         <p>Все материалы на сайте размещены согласно <a class="text_link" href="https://www.gnu.org/licenses/quick-guide-gplv3.pdf" target="_blank"> лицензии GPL 3.0</a></p>
         <p><a href="#top">Перейти наверх страницы</a></p>
     </div>
+    
   </footer>
   
   <body style= "background-image:url('./assets/img/background/background.jpg')">
