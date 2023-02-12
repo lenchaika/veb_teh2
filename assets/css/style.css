@@ -1,13 +1,13 @@
 @font-face {
     font-family: Montserrat Personal;
-    src: url(./assets/fonts/Montserrat-Bold.ttf);
+    src: url(./assets/fonts/Montserrat-Light.ttf);
 }
 
 html,body{
     overflow-x: hidden;
     width: 100%;
-    font-family: Montserrat Personal;
-    font-style: normal;
+    font: 14px 'Montserrat', light;
+	font-style: normal;
     font-size: 20px;
   }
   header{
@@ -43,9 +43,7 @@ html,body{
 	padding: 10px 0;
  }
 
- form[name="search"] {
-	float: right;
- }
+
 
   nav a {
 	text-decoration: none;
@@ -58,7 +56,7 @@ nav ul {
 
 nav li {
 	list-style-position: inside;
-	font: 14px 'Oswald', sans-serif;
+	font: 14px 'Montserrat', sans-serif;
 	padding: 10px;
 }
 
@@ -102,7 +100,7 @@ aside {
 }
 section {
 	margin-left: 280px;
-	padding-bottom: 50px;
+	padding-bottom: 20px;
 }
 
 .aside-menu li {
@@ -128,7 +126,7 @@ blockquote {
 	margin: 0;
 	background: #f8f3f7;
 	padding: 10px 20px;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
 }
 
