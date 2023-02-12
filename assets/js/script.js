@@ -1,4 +1,4 @@
-let perem = `Лена`;//const
+//let perem = `Лена`;//const
 //let aut = `цветочек`;
-alert(`Привет, я ${perem}`);
+//alert(`Привет, я ${perem}`);
 //alert(`Привет, я ${aut}`);
