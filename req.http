@@ -1,0 +1,4 @@
+GET https://yandex.ru
+
+###
+POST https://yandex.ru/search/?text=Лисица&lr=2
