@@ -1,8 +1,8 @@
-<?php 
-$connect = new PDO('mysql:host=localhost; dbname=; charset=utf8', 'ck24812', 'RVyk7u8SkOns');
-$new_files = $connect->query("Select * From ");
-$new_files = $new_files->fetchAll();
-?>
+//<?php 
+//$connect = new PDO('mysql:host=localhost; dbname=; charset=utf8', 'ck24812', 'RVyk7u8SkOns');
+//$new_files = $connect->query("Select * From ");
+//$new_files = $new_files->fetchAll();
+//?>
 
 
 
@@ -97,8 +97,8 @@ $new_files = $new_files->fetchAll();
        <p>&nbsp &nbsp После похорон матери Павел вступил на престол и постарался уничтожить почти все наследие Екатерины. После его правления Россия осталась с внушительным внешним долгом, который пришлось гасить последующим правителям вплоть до конца 19 века.</p>
       </section>
       
-	</div>
-  <h3>Выводим информацию    </h3>
+</div>
+  <h3>   </h3>
   <div>
     <p></p>
     <p></p>
